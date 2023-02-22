@@ -1,0 +1,11 @@
+SCOPE N Variables
+1. "Shadowing" is the term where the compiler uses the whatever variable is defined within the current scope of the reference (we can redecalre global variables within a smaller scope).
+2. Uppercase variables at the package level can be accessed by any other packages importing that package (Globally visible).
+3. Lowercase variables can only be accessed within the current package.
+4. Block scope is established by functions. Any variable defined within that scope can only be accessed within that current scope. 
+5. Naming conventions: length of the variable is defined by how long it will be used (a forloop would have short variable names)
+6. Acronyms should be ALL UPPERCASE.
+7. Go does not do a implicit type conversion. 
+
+Strings
+8. Strings are just an alias for a stream of bites. 
